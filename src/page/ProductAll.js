@@ -18,7 +18,7 @@ const ProductAll = () => {
     console.log(searchQuery)
      //let url = `http://localhost:3004/products?q=${searchQuery}`;
      //let url = `http://localhost:3004/products`;
-     let url = `https://my-json-server.typicode.com/<your-username>/<your-repo>/products?q=${searchQuery}`;
+     let url = `https://my-json-server.typicode.com/leegowoon/shopping/products?q=${searchQuery}`;
     let response = await fetch(url); //fetch : 비동기 //async
     let data = await response.json();
     console.log(data);
